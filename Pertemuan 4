@@ -1,0 +1,13 @@
+@startuml
+:Start;
+: Deklarasi variable m,cm,inch;
+:Cetak "Masukan ukuran meter";
+:Input variable m;
+:Cm=M*100;
+:inch=m*100/2.54;
+:Cetak "Ukuran dalam CM";
+:Cetak variabel CM;
+:Cetak "ukuran dalam Inch";
+:Cetak variable Inch;
+:Finish;
+@enduml
